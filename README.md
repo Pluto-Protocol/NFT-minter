@@ -5,6 +5,8 @@
 
 Mint NFT on polygon at speed of light!
 
+MINT NFTS on POLYGON DOCUMENTATION:
+
 INFRASTRUCTURE/API KEYS:
 Frontend env:
 base_url=http://localhost:3000
@@ -33,6 +35,7 @@ Server.js, IPFS.js, Biconomy-vars.js
 6. Get ABI for ERC1155(721 not necessary)
 7. Get encoded params from  abi.hashex.org: 
 ￼
-8. Add both smart contracts to biconomy with ABI
-9. Update biconomy vars with deployed contract address
-10. Run both backend and frontend with nom run start
+8. Copy output and update 2 instances encodedParams in your code
+9. Add both smart contracts to biconomy with ABI
+10. Update biconomy vars with deployed contract address
+11. Run both backend and frontend with nom run start
